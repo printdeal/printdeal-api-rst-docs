@@ -2,9 +2,9 @@
    :includehidden:
    :titlesonly:
 
-   docs/Getting_started
-   docs/Authentication
-   docs/Orders
-   docs/Products
-   docs/Frequently_asked_questions
-   docs/Development_support
+   Getting_started
+   Authentication
+   Orders
+   Products
+   Frequently_asked_questions
+   Development_support
