@@ -1,0 +1,21 @@
+{
+  "invoiceAddress":{
+    "name":"Naam",
+    "street":"Dorpsstraat",
+    "housenumber":"123",
+    "zipcode":"1234AB",
+    "city":"Dorp",
+    "country":"nl",
+    "extraAddress":"optional"
+  },
+  "deliveryAddress":{
+    "name":"Naam",
+    "street":"Dorpsstraat",
+    "housenumber":"123",
+    "housenumberAddition":"A",
+    "zipcode":"1234AB",
+    "city":"Dorp",
+    "country":"nl",
+    "extraAddress":"optional"
+  }
+}
