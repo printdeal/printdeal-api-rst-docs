@@ -1,0 +1,61 @@
+{
+  "id": 1234567,
+  "number": "DDB1234567",
+  "status": "in-progress",
+  "date": "2017-08-23T16:24:23+02:00",
+  "lines": [
+    {
+      "id": 5178124,
+      "description": "Accessoires buitenreclame, Spinhaken 25cm (10 stuks), 1 stuk",
+      "price": 9,
+      "deliveryMethod": "Standard",
+      "deliveryDate": "2017-08-23T16:28:14+02:00",
+      "productCode": "CS:92.1-B:35.40.183.217.527.1256.1920.2009",
+      "beforeDelivery": null,
+      "vatAmount": 1.89,
+      "vatPercentage": 21,
+      "quantity": 1,
+      "addressInfo": 123456,
+      "status": "in-progress",
+      "shipmentInfo": null,
+      "shippingCost": 0
+    },
+    {
+      "id": 5178125,
+      "description": "Accessoires buitenreclame, Rakel, 1 stuk",
+      "price": 3,
+      "deliveryMethod": "Standard",
+      "deliveryDate": "2017-08-23T16:28:14+02:00",
+      "productCode": "CS:92.1-B:35.40.183.217.527.1255.1905.2009",
+      "beforeDelivery": null,
+      "vatAmount": 0.63,
+      "vatPercentage": 21,
+      "quantity": 1,
+      "addressInfo": 123456,
+      "status": "shipped",
+      "shipmentInfo": [
+        {
+          "labelName": "Your Name Here",
+          "street": "Dorpsstraat",
+          "houseNumber": "123",
+          "houseNumberAddition": "a",
+          "zipCode": "1234AB",
+          "city": "City",
+          "country": "NL",
+          "shippingCost": 0,
+          "trackAndTraceUrl": [
+            {
+              "http://www.example.com/track-and-trace"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "deliveryAddress": 13245,
+  "reference": "reference",
+  "poNumber": "poNumber",
+  "vatAmount": 2.52,
+  "uuid": null,
+  "total": 14.52
+}
