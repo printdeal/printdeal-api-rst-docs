@@ -34,23 +34,9 @@ If you have an category which contains the attribute: Format, with a value conta
 The same goes for quantity.
 
 An example:
-  .. code-block:: JSON
+.. literalinclude:: ../code_examples/Faq/dynamic.json
+   :language: JSON
    :linenos:
-
-    [
-        {
-          "attribute": "format",
-          "value": "Custom sizes (3 mm bleed)"
-        },
-        {
-          "attribute": "height",
-          "value": "80"
-        },
-        {
-          "attribute": "width",
-          "value": "120"
-        }
-    ]
 
 Due too technical limitations, we are currently unable to provide these in the attribute & combinations endpoint.
 
@@ -67,37 +53,10 @@ Our Textile products work a bit differently then our other products. They also u
 * Gender
 
 An example:
-  .. code-block:: JSON
+.. literalinclude:: ../code_examples/Faq/textiles.json
+   :language: JSON
    :linenos:
 
-   {
-     "attributes": [
-       {
-         "attribute": "textile sizes",
-         "value": "L"
-       },
-       {
-         "attribute": "textile sizes",
-         "value": "M"
-       },
-       {
-         "attribute": "quantity",
-         "value": "variable quantity"
-       },
-       {
-         "attribute": "UM",
-         "value": "2"
-       },
-       {
-         "attribute": "UL",
-         "value": "1"
-       },
-       {
-         "attribute": "gender types",
-         "value": "unisex"
-       }
-     ]
-   }
 
 In this case UM stands for unisex M size, and UL for unisex large. As you can see they are also provided in textile sizes.
 
@@ -112,3 +71,11 @@ Our product managers regularly update categories. To ensure that your product st
 * Verify that all attributes & values are still names the same, if thats not the case adjust accordingly.
 
 Since our categories are bound to change sometimes, we would reccomend to store them dynamically to make sure it is possible to change them
+
+*************************
+Combinations file too big
+*************************
+
+If you have issues with reading big combinations files (we have a few categories that are very big) we advise to use JSON stream readers. These will not put the entire file in memory, but will read it in increments. For examples see:
+* https://github.com/skolodyazhnyy/json-stream
+* https://github.com/halaxa/json-machine

@@ -64,53 +64,6 @@ The following PHP code can be used to change the order. Make sure you replace th
 values ``YOUR_USER_ID_HERE`` and ``YOUR_SECRET_HERE`` with the User-ID and secret you received on the API-credentials
 page, and ``{orderId}`` with the corresponding orderId.
 
-  .. code-block:: PHP
+.. literalinclude:: ../code_examples/Orders/Changing_orders/changing_orders.php
+   :language: PHP
    :linenos:
-
-    <?php
-
-    $curl = curl_init();
-
-    curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://api.printdeal.com/api/orders/{orderId}",
-      CURLOPT_RETURNTRANSFER => true,
-      CURLOPT_CUSTOMREQUEST => "POST",
-      CURLOPT_POSTFIELDS => '{
-      "invoiceAddress": {
-        "name": "Naam",
-        "street": "Dorpsstraat",
-        "housenumber": "123",
-        "zipcode": "1234AB",
-        "city": "Dorp",
-        "country": "nl"
-      },
-      "deliveryAddress": {
-        "name": "Naam",
-        "street": "Dorpsstraat",
-        "housenumber": "123",
-        "housenumberAddition": "A",
-        "zipcode": "1234AB",
-        "city": "Dorp",
-        "country": "nl"
-      },
-      "deliveryMethod": 1,
-      "paymentMethod": 1,
-      "reference": "reference-1234",
-      "poNumber": "poNumber"
-    }',
-      CURLOPT_HTTPHEADER => array(
-        "User-ID: YOUR_USER_ID_HERE",
-        "API-Secret: YOUR_SECRET_HERE"
-      )
-    ));
-
-    $response = curl_exec($curl);
-    $err = curl_error($curl);
-
-    curl_close($curl);
-
-    if ($err) {
-      echo "cURL Error #:" . $err;
-    } else {
-      echo $response;
-    }
