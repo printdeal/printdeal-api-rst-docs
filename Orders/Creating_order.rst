@@ -61,6 +61,7 @@ Optional fields
    "``reference``","``String``","Your reference"
    "``poNumber`` > ``productCode``","``String``","Your purchase-order number"
    "``orderLines`` > ``externalId``","``String``","The external ID you want to pass"
+   "``note``", "``String``", "A custom message you can add to the order. Please note that your order will remain in a ‘hold’ state, until our customer service department has reviewed your message. Max length: 255 chars."
 
 ****************
 Order has failed

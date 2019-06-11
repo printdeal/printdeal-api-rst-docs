@@ -6,5 +6,6 @@
    Authentication
    Orders
    Products
+   Basket
    Frequently_asked_questions
    Development_support

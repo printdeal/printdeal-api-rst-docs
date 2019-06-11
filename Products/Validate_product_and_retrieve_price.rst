@@ -11,47 +11,6 @@ If the product is invalid, you will retrieve a 400 status code.
 
 The following request can be used as an example:
 
-An example:
-  .. code-block:: JSON
+.. literalinclude:: ../code_examples/Products/validation.json
+   :language: JSON
    :linenos:
-
-    {
-        "attributes": [
-            {
-                "attribute": "format",
-                "value": "A4"
-            },
-            {
-                "attribute": "material",
-                "value": "lasergeschikt bankpost wit"
-            },
-            {
-                "attribute": "weight",
-                "value": "80 grs"
-            },
-            {
-                "attribute": "printing colors",
-                "value": "1/0 PMS"
-            },
-            {
-                "attribute": "printing process",
-                "value": "PMS colors"
-            },
-            {
-                "attribute": "quantity",
-                "value": "500"
-            },
-            {
-                "attribute": "delivery time",
-                "value": "normal"
-            },
-            {
-                "attribute": "letterheads punchholes",
-                "value": "2 punchholes"
-            },
-            {
-                "attribute": "bundling",
-                "value": "no bundling"
-            }
-        ]
-    }
