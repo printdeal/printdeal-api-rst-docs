@@ -6,6 +6,7 @@ Attribute/values from a category
 To know which attributes and values are available from a category, you can send a ``GET`` request to ``/api/products/{sku}/attributes``.
 
 This will return a response similar to:
+
 .. literalinclude:: ../code_examples/Products/attribute-list.json
    :language: JSON
    :linenos:
