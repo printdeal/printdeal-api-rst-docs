@@ -9,13 +9,13 @@ The basket endpoint is the API version of the basket or cart functionality of a 
 Example request + code
 **********************
 
-.. literalinclude:: ../code_examples/Basket/example.json
+.. literalinclude:: ../docs/code_examples/Basket/example.json
    :language: JSON
    :linenos:
 
 The following code can be used to make this request. Make sure you replace the values ``YOUR_USER_ID_HERE`` and ``YOUR_SECRET_HERE`` with the User-ID and secret you received on the API-credentials page.
 
-.. literalinclude:: ../code_examples/Basket/example.php
+.. literalinclude:: ../docs/code_examples/Basket/example.php
    :language: PHP
    :linenos:
 
@@ -24,13 +24,13 @@ Possible returns
 ****************
 If the call is successful (all products are valid, and we ship to the provided delivery address) you will receive a price for all products, the shipping costs and a total price.
 
-.. literalinclude:: ../code_examples/Basket/return-values.json
+.. literalinclude:: ../docs/code_examples/Basket/return-values.json
    :language: JSON
    :linenos:
 
 In case the call is not succesful the following scenario's can happen:
 
-. csv-table::
+.. csv-table::
    :header: "Code", "Error message", "Reason"
    :widths: 10,40,50
 

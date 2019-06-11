@@ -34,7 +34,8 @@ If you have an category which contains the attribute: Format, with a value conta
 The same goes for quantity.
 
 An example:
-.. literalinclude:: ../code_examples/Faq/dynamic.json
+
+.. literalinclude:: ../docs/code_examples/Faq/dynamic.json
    :language: JSON
    :linenos:
 
@@ -53,7 +54,8 @@ Our Textile products work a bit differently then our other products. They also u
 * Gender
 
 An example:
-.. literalinclude:: ../code_examples/Faq/textiles.json
+
+.. literalinclude:: ../docs/code_examples/Faq/textiles.json
    :language: JSON
    :linenos:
 
@@ -76,6 +78,10 @@ Since our categories are bound to change sometimes, we would reccomend to store 
 Combinations file too big
 *************************
 
-If you have issues with reading big combinations files (we have a few categories that are very big) we advise to use JSON stream readers. These will not put the entire file in memory, but will read it in increments. For examples see:
+If you have issues with reading big combinations files (we have a few categories that are very big) we advise to use JSON stream readers.
+These will not put the entire file in memory, but will read it in increments.
+
+For examples see:
+
 * https://github.com/skolodyazhnyy/json-stream
 * https://github.com/halaxa/json-machine
