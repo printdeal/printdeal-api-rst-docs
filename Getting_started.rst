@@ -31,7 +31,7 @@ All requests start with the following URL:
 ``https://api.printdeal.com/api``
 
 For example, to retrieve your orders, the following URL must be used:
-``https://api.printdeal.com/api/``
+``https://api.printdeal.com/api/orders``
 
 The API is a RESTful API, that uses the HTTP protocol for communication. HTTP ``GET``, ``POST``, ``PUT`` and ``DELETE`` methods are used to access the API.
 

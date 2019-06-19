@@ -1,0 +1,177 @@
+
+{
+    "material": [
+        "Pvc frontlit",
+        "Mesh",
+        "Blockout",
+        "Flag Fabric",
+        "Budget Pvc"
+    ],
+    "printing colors": [
+        "4\/0 Full Color",
+        "4\/4 Full Color"
+    ],
+    "banners finishing": [
+        "Perimetric Reinforcement With Grommets Every 30 Cm",
+        "Perimetric Reinforcement With Grommets Every 50 Cm",
+        "No Finishing",
+        "Pole Pockets Top And Bottom Side (8 Cm)",
+        "Pole Pockets Top And Bottom Side (5 Cm)",
+        "Pole Pockets Left And Right Side (8 Cm)",
+        "Pole Pockets Left And Right Side (5 Cm)",
+        "Perimetric Reinforcement With Grommets In Every Corner",
+        "Grommets Every 30 Cm, Without Perimetric Reinforcement",
+        "Pole Pockets Blockout Top And Bottom Side",
+        "Pole Pockets Blockout Left And Right Side"
+    ],
+    "format": [
+        "Custom Sizes (10 Mm Bleed)",
+        "Custom Sizes (25 Mm Bleed)"
+    ],
+    "quantity": [
+        "1",
+        "variable quantity"
+    ],
+    "delivery time": [
+        "Normal",
+        "express",
+        "overnight"
+    ],
+    "printing process": [
+        "Digital"
+    ],
+    "externals": {
+        "width": [
+            {
+                "validation": "width_min",
+                "value": "10",
+                "criteria": [
+                    "PVC frontlit (B-1 fire retardant)",
+                    "blockout (B-1 fire retardant)",
+                    "mesh (B-1 fire retardant)",
+                    "Flag fabric"
+                ]
+            },
+            {
+                "validation": "width_max",
+                "value": "5000",
+                "criteria": [
+                    "PVC frontlit (B-1 fire retardant)",
+                    "blockout (B-1 fire retardant)",
+                    "mesh (B-1 fire retardant)"
+                ]
+            },
+            {
+                "validation": "width_max",
+                "value": "5000",
+                "criteria": [
+                    "Flag fabric"
+                ]
+            },
+            {
+                "validation": "width_min",
+                "value": "10",
+                "criteria": [
+                    "Budget PVC"
+                ]
+            },
+            {
+                "validation": "width_max",
+                "value": "310",
+                "criteria": [
+                    "Budget PVC"
+                ]
+            },
+            {
+                "validation": "width_min",
+                "value": "30",
+                "criteria": [
+                    "vertical reinforcement left - right 8 cm"
+                ]
+            }
+        ],
+        "quantity": [
+            {
+                "validation": "quantity_min",
+                "value": "1",
+                "criteria": [
+                    "normal",
+                    "express",
+                    "overnight"
+                ]
+            },
+            {
+                "validation": "quantity_max",
+                "value": "50",
+                "criteria": [
+                    "normal",
+                    "express"
+                ]
+            },
+            {
+                "validation": "quantity_max",
+                "value": "25",
+                "criteria": [
+                    "overnight"
+                ]
+            }
+        ],
+        "height": [
+            {
+                "validation": "height_min",
+                "value": "10",
+                "criteria": [
+                    "PVC frontlit (B-1 fire retardant)",
+                    "blockout (B-1 fire retardant)",
+                    "mesh (B-1 fire retardant)",
+                    "Flag fabric"
+                ]
+            },
+            {
+                "validation": "height_max",
+                "value": "5000",
+                "criteria": [
+                    "PVC frontlit (B-1 fire retardant)",
+                    "blockout (B-1 fire retardant)",
+                    "mesh (B-1 fire retardant)"
+                ]
+            },
+            {
+                "validation": "height_max",
+                "value": "1000",
+                "criteria": [
+                    "Flag fabric",
+                    "Budget PVC"
+                ]
+            },
+            {
+                "validation": "height_max",
+                "value": "5000",
+                "criteria": [
+                    "Flag fabric"
+                ]
+            },
+            {
+                "validation": "height_min",
+                "value": "10",
+                "criteria": [
+                    "Budget PVC"
+                ]
+            },
+            {
+                "validation": "height_max",
+                "value": "1000",
+                "criteria": [
+                    "Budget PVC"
+                ]
+            },
+            {
+                "validation": "height_min",
+                "value": "30",
+                "criteria": [
+                    "horizontal reinforcement top - bottom 8 cm"
+                ]
+            }
+        ]
+    }
+}

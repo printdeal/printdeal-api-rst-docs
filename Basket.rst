@@ -9,6 +9,8 @@ The basket endpoint is the API version of the basket or cart functionality of a 
 Example request + code
 **********************
 
+The JSON needed for this endpoint should contain an address, and an array of products. See this example below.
+
 .. literalinclude:: ../docs/code_examples/Basket/example.json
    :language: JSON
    :linenos:

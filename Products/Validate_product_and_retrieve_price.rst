@@ -14,3 +14,13 @@ The following request can be used as an example:
 .. literalinclude:: ../code_examples/Products/validation.json
    :language: JSON
    :linenos:
+
+***************
+Example request
+***************
+
+The following PHP code can be used to validate a product and receive the price. Make sure you replace the values ``YOUR_USER_ID_HERE`` and ``YOUR_SECRET_HERE`` with the User-ID and secret you received on the API-credentials page.
+
+.. literalinclude:: ../code_examples/Products/validation.php
+   :language: PHP
+   :linenos:
