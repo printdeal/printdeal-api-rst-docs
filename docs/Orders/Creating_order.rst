@@ -78,6 +78,6 @@ Example request create order
 ****************************
 The following PHP code can be used to create an order. Make sure you replace the values ``YOUR_USER_ID_HERE`` and ``YOUR_SECRET_HERE`` with the User-ID and secret you received on the API-credentials page.
 
-.. literalinclude:: ../code_examples/Orders/Create_order/Create_order_example.php
+.. literalinclude:: ../code_examples/Orders/Creating_order/Create_order_example.php
    :language: PHP
    :linenos:
