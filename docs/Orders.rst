@@ -23,7 +23,7 @@ You can use regular HTTP methods to communicate with the API about orders:
 - A ``POST`` request to ``/api/orders`` will allow you to create a new order.
     See :ref:`creating order<creating_order>` for more information.
 
-- A ``POST`` or ``PUT`` request to ``/api/orders/{orderId}`` enables you to change an existing order.
+- A ``POST`` or ``PUT`` request to ``/api/orders/{orderId}`` enables you to change an existing order. Currently not available in V2, will be available in Q2 of 2020! 
     See :ref:`changing orders<changing_orders>` for more information.
 
 - Sending a ``DELETE`` request to ``/api/orders/{orderId}`` allows you to cancel an existing order.

@@ -1,6 +1,6 @@
 .. _changing_orders:
 
-Changing orders
+Changing orders - Not available in V2, will be added in Q2 of 2020. 
 ===============
 
 To change the order, you can send the same request that you send to create the order to the endpoint ``/api/orders/{orderid}``
@@ -9,7 +9,7 @@ To change the order, you can send the same request that you send to create the o
 The HTTP method can be either ``POST`` or ``PUT`` and it is up to you if you want to specify only the information that you want
 to change or all information, including the non-changed data.
 
-**Please pay attention that invoiceAddress, externalId and deliveryMethod can’t be changed.**
+**Only reference, PO number and Note can be changed! Please pay attention that invoiceAddress, externalId and deliveryMethod can’t be changed.**
 
 So these JSON objects will have the same result:
 

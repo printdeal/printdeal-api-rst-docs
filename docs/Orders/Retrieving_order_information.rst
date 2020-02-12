@@ -11,6 +11,11 @@ The response will be a JSON object with order information.
 .. literalinclude:: ../code_examples/Orders/retrieving_order_information_data_format.json
    :language: JSON
    :linenos:
+   
+**Information currently not available in V2** 
+The following information is currently not available in V2:
+- Shipping costs - Soon, before 31st of March 
+- Shipment info / track and trace url: - Soon, befor 31st of March  
 
 *********************
 VAT amounts and total
@@ -23,10 +28,7 @@ The total field contains the total amount for the order, including VAT, payment 
 ****************
 Order has failed
 ****************
-
-The Printdeal API was updated at 21 December 2018 around 13:00, after this time,
-when an order creation failed, you now receive an 404 result, with an error message that the order creation has failed.
-Orders that failed before this date and time will have a 404 not found response.
+When an order creation failed, you receive an 404 result, with an error message that the order creation has failed.
 
 ************************************************
 Example request for retrieving order information

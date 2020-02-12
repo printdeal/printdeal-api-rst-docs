@@ -45,7 +45,7 @@ Required fields
    "``orderLines``","``Array``","Array with orderlines"
    "``orderLines`` > ``productCode``","``String``","The code of the requested product"
    "``orderLines`` > ``files``","``Array``","Array with one file, due too technical limitations its currently not possible to supply multiple files per orderline"
-   "``orderLines`` > ``files`` > ``url``","``String``","URL of a PDF file."
+   "``orderLines`` > ``files`` > ``url``","``String``","URL of a PDF file." ? //Mention the max length, and no spaces in the URL//
    "``invoiceAddress``","``Object``","Object of the invoice address. :ref:`See Addresses for more information.<addresses>`"
    "``deliveryAddress``","``Object``","Object of the delivery address. :ref:`See Addresses for more information.<addresses>`"
    "``deliveryMethod``","``Integer``","ID of the delivery method. :ref:`See Delivery methods for more information.<delivery_methods>`"
@@ -67,7 +67,7 @@ Optional fields
 Order has failed
 ****************
 
-The Printdeal API was updated at 21 December 2018 around 13:00, after this time, when an order creation failed and you retrieve the order, you now receive an 404 result, with an error message that the order creation has failed. Orders that failed before this date and time will have a 404 not found response.
+When an order creation failed and you retrieve the order, you receive an 404 result, with an error message that the order creation has failed. 
 
 .. literalinclude:: ../code_examples/Orders/Creating_order/Create_order_example.php
    :language: PHP

@@ -17,6 +17,9 @@ The credentials can be used for building and testing your application, requests 
 Using the credentials
 *********************
 Provide the following headers to make an authenticated request:
+//Please write something for making use of headers. 
+  Accept: application/vnd.printdeal-api.%s
+Where %s can be replaced by V1 or V2. If you do not provide any headers you will be defaulted to V1 to not break backwards compatability.//
 
 +-------------+------------------+
 | Header name | Header value     |
@@ -33,7 +36,7 @@ Example request with authentication
 ***********************************
 
 The following PHP code can be used to create an authenticated request. Make sure you replace the values ``YOUR_USER_ID_HERE`` and ``YOUR_SECRET_HERE`` with the User-ID and secret you received on the API-credentials page
-
+//Please update the example// 
 
 .. literalinclude:: ../docs/code_examples/Authentication_example.php
    :language: PHP
