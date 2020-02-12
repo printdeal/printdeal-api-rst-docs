@@ -44,10 +44,8 @@
           "country": "NL",
           "shippingCost": 0,
           "trackAndTraceUrl": [
-            {
-              "http://www.example.com/track-and-trace"
-            }
-          ]
+			"http://www.example.com/track-and-trace"
+		  ]
         }
       ]
     }
