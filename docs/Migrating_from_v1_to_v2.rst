@@ -3,7 +3,7 @@
 Migrating from v1 to v2
 =======================
 
-This new minor version brings with it a number of new features and a few incompatibilities that should be tested
+This major version brings a number of new features and a few incompatibilities that should be tested
 before switching to the newer versions in production environments.
 
 ***********************
