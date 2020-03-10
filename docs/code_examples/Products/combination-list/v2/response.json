@@ -1,0 +1,53 @@
+[{
+  "product": {
+    "attributes": [{
+      "attribute": "Delivery Type",
+      "value": "Express"
+    }, {
+      "attribute": "Printing Process",
+      "value": "Full Color Rotary Print"
+    }, {
+      "attribute": "Finishing Newspapers",
+      "value": "Folded / Saddlestitched Pages"
+    }, {
+      "attribute": "Material",
+      "value": "Woodfree Offset"
+    }, {
+      "attribute": "Number Of Pages",
+      "value": "48 Pages"
+    }],
+    "prices": [{
+      "quantity": 1,
+      "price": 0,
+      "information": {
+        "deliveryDays": 26
+      }
+    }]
+  }
+}, {
+  "product": {
+    "attributes": [{
+      "attribute": "Delivery Type",
+      "value": "Express"
+    }, {
+      "attribute": "Printing Process",
+      "value": "Full Color Rotary Print"
+    }, {
+      "attribute": "Finishing Newspapers",
+      "value": "Folded / Saddlestitched Pages"
+    }, {
+      "attribute": "Material",
+      "value": "Newsprint"
+    }, {
+      "attribute": "Number Of Pages",
+      "value": "48 Pages"
+    }],
+    "prices": [{
+      "quantity": 1,
+      "price": 0,
+      "information": {
+        "deliveryDays": 26
+      }
+    }]
+  }
+}]

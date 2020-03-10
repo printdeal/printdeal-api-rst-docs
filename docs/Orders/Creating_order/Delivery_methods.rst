@@ -6,13 +6,15 @@
 Delivery methods
 ================
 
-You can use the following id’s to specify your ``deliveryMethod``
+You can use the following id’s to specify your ``deliveryMethod``.
 
 .. csv-table::
-   :header: "Name", "Id"
-   :widths: 90,10
+   :header: "Name", "Id", "Version"
+   :widths: 70,10,20
 
-   "Delivery at home or work", "``1``"
-   "Pickup in Antwerp (Printdeal)", "``6``"
-   "Pickup in Deventer (Drukwerkdeal Production)","``18``"
-   "Pickup in Dodewaard","``19``"
+   "Delivery at home or work", "``1``", "``v1`` ``v2``"
+   "Pickup in Antwerp (Printdeal)", "``6``", "``v1``"
+   "Pickup in Deventer (Drukwerkdeal Production)","``18``", "``v1``"
+   "Pickup in Dodewaard","``19``", "``v1``"
+
+ℹ️ **Please be aware that not all delivery methods are available in version** ``v2``

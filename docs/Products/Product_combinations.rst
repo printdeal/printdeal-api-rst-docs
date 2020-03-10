@@ -1,9 +1,19 @@
+.. _products/product_combinations:
+
 Product combinations
 ====================
 
 To know which combinations are available for each category, you can send a ``GET`` request to ``/api/products/{sku}/combinations``.
 
 This will give you a response like:
+
+``v2``:
+
+.. literalinclude:: ../code_examples/Products/combination-list/v2/response.json
+   :language: JSON
+   :linenos:
+
+``v1``:
 
 .. literalinclude:: ../code_examples/Products/combination-list.json
    :language: JSON

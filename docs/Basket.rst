@@ -3,6 +3,8 @@
 Basket
 ======
 
+ℹ️ **This endpoint is at this moment only available in** ``v1``
+
 The basket endpoint is the API version of the basket or cart functionality of a website. You can call this endpoint before you create an order, if you want to know if all the products you assembled are valid, and what the total shipping costs will be.
 
 **********************

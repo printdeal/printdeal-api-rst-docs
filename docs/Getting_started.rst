@@ -17,7 +17,11 @@ After you registered your account, navigate to the My API-credentials page. From
 
 After this step, you can start coding! A next step could be creating orders.
 
-| **3. Link your account (when you are finished integrating)**
+| **3. Use the Printdeal API v2 endpoints**
+
+We want to deprecate our version ``v1`` endpoints. You can find more information about the versioning and the extra version header :ref:`here<versioning>`.
+
+| **4. Link your account (when you are finished integrating)**
 
 When you finished coding and integrating the API, you can use the same credentials to use live data. This is done by linking the credentials to a Drukwerkdeal (NL) or Printdeal (BE) account. If you don’t have an account on Drukwerkdeal or Printdeal, visit https://www.drukwerkdeal.nl or https://www.printdeal.be and register an account there.
 
