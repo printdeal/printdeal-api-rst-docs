@@ -3,7 +3,7 @@
 Development support
 ===================
 
-Before sending an email, please check if you question is already answered in the Frequently asked questions page.
+Before sending an email, please check if you question is already answered in the :ref:`Frequently asked questions page<frequently_asked_questions>`.
 
 To contact development, email api.support@printdeal.com.
 

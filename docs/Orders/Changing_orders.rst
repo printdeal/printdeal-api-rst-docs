@@ -3,6 +3,8 @@
 Changing orders
 ===============
 
+ℹ️ **This endpoint is at this moment only available in** ``v1``
+
 To change the order, you can send the same request that you send to create the order to the endpoint ``/api/orders/{orderid}``
 **Note: for updating you can also use UUID as the identifier:** ``/api/orders/{orderuuid}``
 

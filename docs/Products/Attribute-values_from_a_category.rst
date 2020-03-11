@@ -34,6 +34,14 @@ We also added validation rules for some of the externals. Not all rules are expo
 
 Criteria can also be present on external rules. These are values that must be present in the selection for this rule to be active. Take the following example below. The rule “width_max” (maximum width) with value “310” is active when “Budget PVC” is selected. But when “Flag fabric” is selected, the value for “width_max” is 5000.
 
+``v2``:
+
+.. literalinclude:: ../code_examples/Products/dynamic-attributes/v2/response.json
+   :language: JSON
+   :linenos:
+
+``v1``:
+
 .. literalinclude:: ../code_examples/Products/dynamic-attributes.json
    :language: JSON
    :linenos:
