@@ -6,6 +6,8 @@ Migrating from v1 to v2
 This major version brings a number of new features and a few incompatibilities that should be tested
 before switching to the newer versions in production environments.
 
+ℹ️ **Please note that you have to create new credentials when migrating form V1 to V2!**
+
 ***********************
 What's different in v2?
 ***********************
