@@ -8,7 +8,8 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS => '{
   "invoiceAddress": {
-    "name": "Naam",
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
     "street": "Dorpsstraat",
     "housenumber": "123",
     "zipcode": "1234AB",
@@ -16,7 +17,8 @@ curl_setopt_array($curl, array(
     "country": "nl"
   },
   "deliveryAddress": {
-    "name": "Naam",
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
     "street": "Dorpsstraat",
     "housenumber": "123",
     "housenumberAddition": "A",

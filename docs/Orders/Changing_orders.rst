@@ -20,7 +20,8 @@ So these JSON objects will have the same result:
 
     {
         "deliveryAddress": {
-            "name": "Naam",
+            "firstName":"Voornaam",
+            "lastName":"Achternaam",
             "street": "Dorpsstraat",
             "housenumber": "123",
             "housenumberAddition": "A",
@@ -35,7 +36,8 @@ So these JSON objects will have the same result:
 
     {
           "invoiceAddress": {
-            "name": "Drukwerkdeal B.V.",
+            "firstName":"Voornaam",
+            "lastName":"Achternaam",
             "street": "Keulenstraat",
             "housenumber": "4",
             "zipcode": "7418 ET",
@@ -43,7 +45,8 @@ So these JSON objects will have the same result:
             "country": "nl"
           },
           "deliveryAddress": {
-            "name": "Naam",
+            "firstName":"Voornaam",
+            "lastName":"Achternaam",
             "street": "Dorpsstraat",
             "housenumber": "123",
             "housenumberAddition": "A",
