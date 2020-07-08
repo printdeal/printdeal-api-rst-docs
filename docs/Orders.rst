@@ -9,7 +9,6 @@ Orders
    Orders/Creating_order
    Orders/Retrieving_your_orders
    Orders/Retrieving_order_information
-   Orders/Changing_orders
    Orders/Cancelling_an_order
 
 You can use regular HTTP methods to communicate with the API about orders:
@@ -22,9 +21,6 @@ You can use regular HTTP methods to communicate with the API about orders:
     
 - A ``POST`` request to ``/api/orders`` will allow you to create a new order.
     See :ref:`creating order<creating_order>` for more information.
-
-- A ``POST`` or ``PUT`` request to ``/api/orders/{orderId}`` enables you to change an existing order.
-    See :ref:`changing orders<changing_orders>` for more information.
 
 - Sending a ``DELETE`` request to ``/api/orders/{orderId}`` allows you to cancel an existing order.
     See :ref:`cancelling an order<cancelling_an_order>`. for more information.
