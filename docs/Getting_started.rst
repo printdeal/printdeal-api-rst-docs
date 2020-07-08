@@ -44,7 +44,6 @@ Some examples:
 - ``GET`` ``/api/orders will`` return your orders
 - ``GET`` ``/api/orders/{id}`` will return a specific order
 - ``POST`` ``/api/orders`` allows you to create an order
-- ``PUT`` (or ``POST``) ``/api/orders/{id}`` enables you to update the order
 - ``DELETE`` ``/api/orders/{id}`` cancels the order
 
 
