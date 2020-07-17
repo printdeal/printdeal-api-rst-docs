@@ -82,6 +82,7 @@ curl_setopt_array($curl, array(
       "invoiceAddress": {
         "firstName":"Voornaam",
         "lastName":"Achternaam",
+        "email":"Voornaam@gmail.com",
         "street": "Dorpsstraat",
         "housenumber": "123",
         "zipcode": "1234AB",
