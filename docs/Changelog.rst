@@ -5,7 +5,7 @@ Changelog
 
 
 05-08-2020 ``v2``
-    We set max length limit for `reference` and `poNumber` fields to 35 in create order API.
+    We set max length limit for `reference` and `poNumber` fields to 35 characters in create order API.
 
 09-03-2020 ``v2``
     We updated our internal systems and have made some changes to the API. We released our API V2 as a beta version.
