@@ -25,7 +25,10 @@ jobs:
         python-version: 3.6
     - name: Install dependencies
       run: |
-        pip install -U -r requirements.txt
+        pip install -U sphinx==1.8.1
+        pip install -U sphinx-autobuild==0.7.1
+        sphinx-build -M docs/ build/
+
         
     # Steps represent a sequence of tasks that will be executed as part of the job
 #     steps:
