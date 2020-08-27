@@ -27,9 +27,24 @@ jobs:
       run: |
         pip install -U sphinx==1.8.1
         pip install -U sphinx-autobuild==0.7.1
-        sphinx-build -M docs/ build/
+        make html
 
-        
+    deploy:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: somebuild
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: ${{ GITHUB_REF }}  # deploying branch
+
     # Steps represent a sequence of tasks that will be executed as part of the job
 #     steps:
 #       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
