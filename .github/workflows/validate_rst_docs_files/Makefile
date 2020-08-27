@@ -1,9 +1,9 @@
 # Minimal makefile for Sphinx documentation
 
 # You can set these variables from the command line.
-SPHINXOPTS    = -c=config/sphinx/
+SPHINXOPTS    = -c=sphinx/
 SPHINXBUILD   = sphinx-build
-SOURCEDIR     = .
+SOURCEDIR     = ../../../
 BUILDDIR      = build
 
 # Put it first so that "make" without argument is like "make help".
