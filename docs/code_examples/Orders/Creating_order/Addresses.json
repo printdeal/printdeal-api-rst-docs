@@ -1,0 +1,24 @@
+{
+  "invoiceAddress":{
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
+    "email":"Voornaam@gmail.com",
+    "street":"Dorpsstraat",
+    "housenumber":"123",
+    "zipcode":"1234AB",
+    "city":"Dorp",
+    "country":"nl",
+    "extraAddress":"optional"
+  },
+  "deliveryAddress":{
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
+    "street":"Dorpsstraat",
+    "housenumber":"123",
+    "housenumberAddition":"A",
+    "zipcode":"1234AB",
+    "city":"Dorp",
+    "country":"nl",
+    "extraAddress":"optional"
+  }
+}

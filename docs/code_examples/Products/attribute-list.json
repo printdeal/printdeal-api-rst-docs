@@ -1,0 +1,55 @@
+{
+    "format": [
+      "A4",
+      "A5"
+    ],
+    "material": [
+      "lasergeschikt bankpost wit",
+      "lasergeschikt ECO",
+      "lasergeschikt biotop natural FSC",
+      "lasergeschikt vergé white",
+      "lasergeschikt vergé naturel"
+    ],
+    "weight": [
+      "80 grs",
+      "120 grs"
+    ],
+    "printing colors": [
+      "1/0 PMS",
+      "4/0 full color",
+      "3/3 PMS",
+      "4/4 full color"
+    ],
+    "printing process": [
+      "digital",
+      "full color offset",
+      "PMS colors"
+    ],
+    "quantity": [
+      "25",
+      "50",
+      "250",
+      "500",
+      "1000",
+      "5000",
+      "10000",
+      "15000",
+      "100000",
+      "variable quantity"
+    ],
+    "delivery time": [
+      "normal",
+      "express",
+      "overnight"
+    ],
+    "letterheads punchholes": [
+      "2 punchholes",
+      "4 punchholes",
+      "no punchhole"
+    ],
+    "bundling": [
+      "no bundling",
+      "bundling per 100",
+      "bundling per 250"
+    ]
+  }
