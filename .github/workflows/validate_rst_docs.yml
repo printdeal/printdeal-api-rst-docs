@@ -20,5 +20,7 @@ jobs:
       run: |
         pip install -U sphinx==1.8.1
         pip install -U sphinx-autobuild==0.7.1
+    - name: Build static html documentation
+      run: |
         cd .github/workflows/validate_rst_docs_files/
         make html

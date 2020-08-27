@@ -1,3 +1,5 @@
+.. _validate_product:
+
 Validate product and retrieve price
 ===================================
 
@@ -9,11 +11,31 @@ If you can order your product, you will receive the following data: ``price`` an
 
 If the product is invalid, you will retrieve a 400 status code.
 
-The following request can be used as an example:
+***************
+Request example
+***************
 
 .. literalinclude:: ../code_examples/Products/validation.json
    :language: JSON
    :linenos:
+
+****************
+Response example
+****************
+
+.. literalinclude:: ../code_examples/Products/validation_response.json
+   :language: JSON
+   :linenos:
+
+.. csv-table::
+   :header: "Field", "Type", "Description"
+   :widths: 30,10,60
+
+   "``price``","``float``","Price of the product"
+   "``deliveryDays``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
+   "``planoWidth``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
+   "``planoHeight``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
+   "``promisedArrivalDate``","``String|Null``","Date in the format yyyy-mm-dd. **If value returns** ``NULL`` **there went something wrong with calculating the date.**"
 
 ***************
 Example request
