@@ -105,7 +105,8 @@ curl_setopt_array($curl, array(
     }',
     CURLOPT_HTTPHEADER => array(
         "User-ID: YOUR_USER_ID_HERE",
-        "API-Secret: YOUR_SECRET_HERE"
+        "API-Secret: YOUR_SECRET_HERE",
+        "Accept: application/vnd.printdeal-api.v2"
     )
 ));
 

@@ -3,6 +3,8 @@
 Changelog
 ==========
 
+27-08-2020 ``v2``
+    Added the `promised arrval date` field to the response of the :ref:`validate product<validate_product>` call. ``/api/products/{sku}``
 
 05-08-2020 ``v2``
     We set max length limit for `reference` and `poNumber` fields to 35 characters in create order API.
