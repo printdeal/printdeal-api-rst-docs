@@ -30,11 +30,11 @@ How it gets calculated -
 
 For example orderLine price is 100 and vatAmount is 21 as per 21% vatAmountPercentage.
 
-So if customer have 7% of discount then customerDiscount will show discountAmount & discountAmountTax.
+So if customer have 7% of discount then customerDiscount will show discountAmount & discountTaxAmount.
 
 discountAmount will be 7 on price so final price will be 93. (100 - 7 = 93)
 
-discountAmountTax will be 1.47 on vatAmount so final vatAmount will be 19.53. (21 - 1.47 = 19.53)
+discountTaxAmount will be 1.47 on vatAmount so final vatAmount will be 19.53. (21 - 1.47 = 19.53)
 
 ****************
 Order has failed
