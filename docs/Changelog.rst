@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+11-09-2020 ``v1``
+    Version `v1` of the api is shutdown.
+
 27-08-2020 ``v2``
     Added the `promised arrval date` field to the response of the :ref:`validate product<validate_product>` call. ``/api/products/{sku}``
 
