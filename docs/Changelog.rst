@@ -2,6 +2,8 @@
 
 Changelog
 ==========
+15-09-2020 ``V2``
+    Added the `customer discount` field to the response of the :ref:`retrieve order information<retrieving_order_information>` call. ``/api/orders/{orderId} or /api/orders/{orderUuid}``
 
 11-09-2020 ``v1``
     Version `v1` of the api is shutdown.
