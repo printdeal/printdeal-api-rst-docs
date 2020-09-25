@@ -3,6 +3,8 @@
 Changelog
 ==========
 
+28-09-2020 ``v2``
+    Added a new endpoint to add a file to an orderline.
 
 09-03-2020 ``v2``
     We updated our internal systems and have made some changes to the API. We released our API V2 as a beta version.
