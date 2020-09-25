@@ -2,6 +2,10 @@
 
 Changelog
 ==========
+
+28-09-2020 ``v2``
+    Added a new endpoint to add a file to an orderline :ref:`Adding file<adding_file>` call. ``/api/{orderlineId}/files``
+
 15-09-2020 ``V2``
     Added the `customer discount` field to the response of the :ref:`retrieve order information<retrieving_order_information>` call. ``/api/orders/{orderId} or /api/orders/{orderUuid}``
 
