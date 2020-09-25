@@ -7,30 +7,34 @@
     {
       "id": 5178124,
       "description": "Accessoires buitenreclame, Spinhaken 25cm (10 stuks), 1 stuk",
-      "price": 9,
+      "price": 100,
       "deliveryMethod": "Standard",
       "deliveryDate": "2017-08-23T16:28:14+02:00",
       "productCode": "CS:92.1-B:35.40.183.217.527.1256.1920.2009",
       "beforeDelivery": null,
-      "vatAmount": 1.89,
+      "vatAmount": 21,
       "vatPercentage": 21,
       "quantity": 1,
       "addressInfo": 123456,
       "status": "in-progress",
       "shipmentInfo": null,
+      "customerDiscount": {
+        "discountAmount": 7,
+        "discountTaxAmount": 1.47
+      },
       "shippingCost": 0
     },
     {
       "id": 5178125,
       "description": "Accessoires buitenreclame, Rakel, 1 stuk",
-      "price": 3,
+      "price": 104.75,
       "deliveryMethod": "Standard",
       "deliveryDate": "2017-08-23T16:28:14+02:00",
       "productCode": "CS:92.1-B:35.40.183.217.527.1255.1905.2009",
       "beforeDelivery": null,
-      "vatAmount": 0.63,
+      "vatAmount": 22,
       "vatPercentage": 21,
-      "quantity": 1,
+      "quantity": 1000,
       "addressInfo": 123456,
       "status": "shipped",
       "shipmentInfo": [
@@ -49,13 +53,38 @@
             }
           ]
         }
-      ]
+      ],
+      "customerDiscount": {
+        "discountAmount": 7.33,
+        "discountTaxAmount": 1.54
+      }
+    },
+    {
+      "id": "10004274-3",
+      "description": "Hybrid merch name",
+      "price": 30.6,
+      "deliveryMethod": "Standard",
+      "deliveryDate": "2020-09-07T00:00:00+02:00",
+      "productCode": "CS:92.1-B:35.40.183.217.527.1255.1905.2009",
+      "beforeDelivery": null,
+      "vatAmount": 6.43,
+      "vatPercentage": 21,
+      "quantity": 100,
+      "addressInfo": 1234,
+      "status": "shipped",
+      "shipmentInfo": [],
+      "customerDiscount": {
+        "discountAmount": 2.14,
+        "discountTaxAmount": 0.45
+      },
+      "shippingCost": 0,
+      "externalId": null
     }
   ],
   "deliveryAddress": 13245,
   "reference": "reference",
   "poNumber": "poNumber",
-  "vatAmount": 2.52,
+  "vatAmount": 45.97,
   "uuid": null,
-  "total": 14.52
+  "total": 218.88
 }

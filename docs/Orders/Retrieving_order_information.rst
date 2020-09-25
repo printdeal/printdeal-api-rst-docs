@@ -20,6 +20,22 @@ Each orderline contains a vatAmount field with the VAT for that product. There i
 
 The total field contains the total amount for the order, including VAT, payment costs, shipping costs, customer discounts and coupons if used.
 
+*********************
+Customer Discount
+*********************
+
+Each orderline contains a customer discount field which will show how much discount is applied on order line. In case of customer discount is not present then it will be null.
+
+How it gets calculated -
+
+For example orderLine price is 100 and vatAmount is 21 as per 21% vatAmountPercentage.
+
+So if customer have 7% of discount then customerDiscount will show discountAmount & discountTaxAmount.
+
+discountAmount will be 7 on price so final price will be 93. (100 - 7 = 93)
+
+discountTaxAmount will be 1.47 on vatAmount so final vatAmount will be 19.53. (21 - 1.47 = 19.53)
+
 ****************
 Order has failed
 ****************

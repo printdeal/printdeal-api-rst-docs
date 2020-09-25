@@ -58,8 +58,8 @@ Optional fields
    :header: "Field", "Type", "Description"
    :widths: 30,10,60
 
-   "``reference``","``String``","Your reference"
-   "``poNumber`` > ``productCode``","``String``","Your purchase-order number"
+   "``reference``","``String``","Your reference. Max length: 35 chars."
+   "``poNumber`` > ``productCode``","``String``","Your purchase-order number. Max length: 35 chars."
    "``orderLines`` > ``externalId``","``String``","The external ID you want to pass"
    "``note``", "``String``", "A custom message you can add to the order. Please note that your order will remain in a ‘hold’ state, until our customer service department has reviewed your message. Max length: 255 chars."
 

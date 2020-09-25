@@ -82,6 +82,7 @@ curl_setopt_array($curl, array(
       "invoiceAddress": {
         "firstName":"Voornaam",
         "lastName":"Achternaam",
+        "email":"Voornaam@gmail.com",
         "street": "Dorpsstraat",
         "housenumber": "123",
         "zipcode": "1234AB",
@@ -104,7 +105,8 @@ curl_setopt_array($curl, array(
     }',
     CURLOPT_HTTPHEADER => array(
         "User-ID: YOUR_USER_ID_HERE",
-        "API-Secret: YOUR_SECRET_HERE"
+        "API-Secret: YOUR_SECRET_HERE",
+        "Accept: application/vnd.printdeal-api.v2"
     )
 ));
 

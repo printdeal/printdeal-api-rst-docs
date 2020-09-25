@@ -1,0 +1,17 @@
+name: DEPLOY_STAGING
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  deploy-to-staging:
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hit the staging deploy webhook
+        run: |
+          curl -o /dev/null -X POST \
+          -F token=${{ secrets.STAGING_PIPELINE_DEPLOY_TOKEN }} \
+          -F ref=${{ secrets.STAGING_PIPELINE_DEPLOY_REF }} \
+          ${{ secrets.STAGING_PIPELINE_DEPLOY_URL }}

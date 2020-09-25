@@ -51,9 +51,10 @@ curl_setopt_array($curl, array(
 	]
 }',
   CURLOPT_HTTPHEADER => array(
-    "API-Secret: YOUR_SECRET_HERE",
     "Content-Type: application/json",
-    "User-ID: YOUR_USER_ID_HERE"
+    "API-Secret: YOUR_SECRET_HERE",
+    "User-ID: YOUR_USER_ID_HERE",
+    "Accept: application/vnd.printdeal-api.v2"
   ),
 ));
 
