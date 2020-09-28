@@ -24,10 +24,6 @@ The response, if successfully will be a JSON object with the following data:
 
     "File upload is scheduled"
 
-Your order can be cancelled as long as the order is not yet in production.
-If you can no longer cancel your order, you will receive a ``500 Internal Server Error``
-that contains the message ``Cancel order failed``.
-
 You can add file to an orderline which does not contain any file and you will be able to add only one file at this moment.
 If you can no longer add file to an orderline, you will receive a ``500 Internal Server Error``
 
