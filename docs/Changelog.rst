@@ -3,7 +3,7 @@
 Changelog
 ==========
 
-28-09-2020 ``v2``
+09-10-2020 ``v2``
     Added a new endpoint to add a file to an orderline :ref:`Adding file<adding_file>` call. ``/api/{orderlineId}/files``
 
 15-09-2020 ``V2``
