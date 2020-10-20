@@ -6,6 +6,8 @@ Changelog
 20-10-2020 ``v2``
     ``housenumber`` field under ``Address`` while creating order is a mandatory field now and blank spaces cannot be passed from now on.
 
+    ``country`` field under ''Address`` now will accept only valid country to ship the order. :ref:`Address<addresses>`
+
 
 09-10-2020 ``v2``
     Added a new endpoint to add a file to an orderline :ref:`Adding file<adding_file>` call. ``/api/{orderlineId}/files``
