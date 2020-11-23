@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+23-11-202 ``v2``
+    Removed `note` field from order object for create order endpoint.
+
 20-10-2020 ``v2``
     ``housenumber`` field under ``Address`` while creating order is a mandatory field now and blank spaces cannot be passed from now on.
 
