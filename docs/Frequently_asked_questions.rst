@@ -15,14 +15,6 @@ If your order has not been processed, or failed, you will receive a 404 error on
 * Invalid products
 * Outdated category SKU is used
 
-We are currently working on an event based system to give you exact details on where and why the order creation has failed.
-
-
-Update on 21 December 2018:
----------------------------
-
-The Printdeal API was updated at 21 December 2018 around 13:00, after this time, when an order creation failed, you now receive an 404 result, with an error message that the order creation has failed. Orders that failed before this date and time will have a 404 not found response.
-
 ******************
 Dynamic attributes
 ******************
@@ -43,24 +35,6 @@ Due too technical limitations, we are currently unable to provide these in the a
 
 We are currently working on a solution to provide ranges for the width & height attributes.
 
-****************
-Textile products
-****************
-
-Our Textile products work a bit differently then our other products. They also use dynamic attributes. With textile products you need to provide the following attributes, for creating an order or validating a product:
-
-* Quantity
-* Sizes
-* Gender
-
-An example:
-
-.. literalinclude:: ../docs/code_examples/Faq/textiles.json
-   :language: JSON
-   :linenos:
-
-
-In this case UM stands for unisex M size, and UL for unisex large. As you can see they are also provided in textile sizes.
 
 ****************
 Category updates
