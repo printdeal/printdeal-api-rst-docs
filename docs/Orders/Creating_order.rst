@@ -59,7 +59,7 @@ Optional fields
    :widths: 30,10,60
 
    "``reference``","``String``","Your reference. Max length: 35 chars."
-   "``poNumber`` > ``productCode``","``String``","Your purchase-order number. Max length: 35 chars."
+   "``poNumber`` > ``productCode``","``String``","Your purchase-order number. Max length: 120 chars."
    "``orderLines`` > ``externalId``","``String``","The external ID you want to pass"
 
 ****************
