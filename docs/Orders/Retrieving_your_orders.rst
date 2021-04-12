@@ -7,6 +7,7 @@ Retrieving your orders
    :hidden:
 
    Retrieving_your_orders/Order_status
+   Retrieving_your_orders/Orderline_status
 
 To receive a overview of your orders, you can send a ``GET`` request to ``/api/orders``.
 Your response will look something like:
