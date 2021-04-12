@@ -1,9 +1,9 @@
-.. _order_status:
+.. _orderline_status:
 
-Order status
+Orderline status
 ============
 
-The following order statuses are available:
+The following orderline statuses are available:
 
 .. csv-table::
    :header: "Name", "Meaning"
