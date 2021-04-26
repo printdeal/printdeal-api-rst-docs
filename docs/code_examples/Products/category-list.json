@@ -1,38 +1,47 @@
 [
     {
       "name": "magazines",
-      "sku": "3548e67f-1d1a-44f3-8547-c982ff9ceda3"
+      "sku": "3548e67f-1d1a-44f3-8547-c982ff9ceda3",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "flyers",
-      "sku": "008adad3-621d-4039-b57e-66b91d969122"
+      "sku": "008adad3-621d-4039-b57e-66b91d969122",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "business cards",
-      "sku": "1b5c5f8d-64e8-4b4b-9698-b5b510a48973"
+      "sku": "1b5c5f8d-64e8-4b4b-9698-b5b510a48973",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "canvas prints",
-      "sku": "671df37a-bd14-41d5-aea7-afcf7ded5f59"
+      "sku": "671df37a-bd14-41d5-aea7-afcf7ded5f59",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "envelopes",
-      "sku": "7db2b277-4c17-4e30-9261-5b4cdf6e8f41"
+      "sku": "7db2b277-4c17-4e30-9261-5b4cdf6e8f41",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "folders",
-      "sku": "877ebcd0-5117-44ed-960b-a331d2c3deb6"
+      "sku": "877ebcd0-5117-44ed-960b-a331d2c3deb6",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "large format stickers",
-      "sku": "591f6180-3a3a-423f-b9af-86b54289ee93"
+      "sku": "591f6180-3a3a-423f-b9af-86b54289ee93",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "letterhead",
-      "sku": "17cba119-9f75-44e2-b410-d79b42468b35"
+      "sku": "17cba119-9f75-44e2-b410-d79b42468b35",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     },
     {
       "name": "magazines loopstitched",
-      "sku": "5222ed2a-b031-40d4-8693-77698a481185"
+      "sku": "5222ed2a-b031-40d4-8693-77698a481185",
+      "combinationsModifiedAt": "2021-04-27 07:00:00"
     }
   ]

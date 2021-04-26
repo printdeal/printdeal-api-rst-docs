@@ -11,6 +11,8 @@ Your response will look like:
 The SKU is used for communicating the type of product you want to order, or need more information about.
 You can retrieve the available attributes and values or retrieve all possible combinations of a certain category.
 
+``combinationsModifiedAt`` indicates when the combinations for a particular category was updated last time.
+
 When there are major updates to a category, or we cannot guarantee backwards compatibility of a category, the sku will change.
 
 ***************
