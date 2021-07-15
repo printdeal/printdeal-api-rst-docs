@@ -44,6 +44,13 @@ The Printdeal API was updated at 21 December 2018 around 13:00, after this time,
 when an order creation failed, you now receive an 404 result, with an error message that the order creation has failed.
 Orders that failed before this date and time will have a 404 not found response.
 
+*********************
+Delivery date get revised
+*********************
+
+In some cases delivery date may get revised. So in such case for each orderline have ``revisedDeliveryDate`` which
+shows revised delivery date for orderline. If no change in delivery date then it will be ``null``.
+
 ************************************************
 Example request for retrieving order information
 ************************************************
