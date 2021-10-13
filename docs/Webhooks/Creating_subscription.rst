@@ -9,23 +9,16 @@ The body needs to contain the following JSON data. For example:
   .. code-block:: JSON
    :linenos:
     {
-        "description": "Subscription for events",
+        "description": "New Subscription for events",
         "url": "https://ennpjtc2q1cm.x.pipedream.net",
         "events": [
-            "OrderCreated"
+            "order.created"
         ]
     }
 
-The response, if successfully will be a JSON object with the following data:
+The response HTTP status code will be 201 if the webhook subscription was successfully created.
 
-  .. code-block:: JSON
-   :linenos:
-
-    {
-        "success": true
-    }
-
-If you can no longer create a webhook subscription, you will receive a ``500 Internal Server Error``
+If you can no longer create a webhook subscription and receive ``500 Internal Server Error``, please contact us using email api.support@printdeal.com.
 
 ***********
 Event Types
@@ -34,11 +27,13 @@ Event Types
 The list of event types that you can subscribe to recieve real-time updates.
 
 .. csv-table::
-   :header: "Event Type", "Description"
-   :widths: 30,70
+   :header: "Event Type", Event Payload, "Description"
+   :widths: 20,50,30
 
-   "``OrderCreated``","This type will notify for order created event"
-   "``LineItemStateTransition``","This type will notify when an orderline's status is changed :ref:`See Orderline status for more information.<_orderline_status>`"
+   "``order.created``","``{"orderNumber":"10006028","eventType":"order.created"}
+``","This type will notify for order created event"
+   "``orderline.status.updated``","``{"orderNumber":"10006028","eventType":"orderline.status.updated","lineItemState":"cancelled","oldLineItemState":"waiting-for-artwork","lineItemNumber":"10006028-1","transitionDate":"2021-10-13T08:58:13.962Z"}
+``","This type will notify when an orderline's status is changed :ref:`See Orderline status for more information.<_orderline_status>`"
 
 ***************
 Example request

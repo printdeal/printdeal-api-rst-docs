@@ -3,7 +3,7 @@
 Changelog
 ==========
 
-04-10-2021 ``v2``
+18-10-2021 ``v2``
     We released Events and Webhook Subscription as a beta version.
 
 23-11-202 ``v2``
