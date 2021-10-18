@@ -8,6 +8,7 @@
    Orders <./docs/Orders>
    Orderlines <./docs/Orderlines>
    Products <./docs/Products>
+   Webhooks <./docs/Webhooks>
    Migrating from v1 to v2 <./docs/Migrating_from_v1_to_v2>
    Changelog <./docs/Changelog>
    Frequently Asked Questions <./docs/Frequently_asked_questions>
