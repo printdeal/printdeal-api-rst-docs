@@ -30,10 +30,8 @@ The list of event types that you can subscribe to recieve real-time updates.
    :header: "Event Type", Event Payload, "Description"
    :widths: 20,50,30
 
-   "``order.created``","``{"orderNumber":"10006028","eventType":"order.created"}
-``","This type will notify for order created event"
-   "``orderline.status.updated``","``{"orderNumber":"10006028","eventType":"orderline.status.updated","lineItemState":"cancelled","oldLineItemState":"waiting-for-artwork","lineItemNumber":"10006028-1","transitionDate":"2021-10-13T08:58:13.962Z"}
-``","This type will notify when an orderline's status is changed :ref:`See Orderline status for more information.<_orderline_status>`"
+   "``order.created``","``{"orderNumber":"10006028","eventType":"order.created"}``","This type will notify for order created event"
+   "``orderline.status.updated``","``{"orderNumber":"10006028","eventType":"orderline.status.updated","lineItemState":"cancelled","oldLineItemState":"waiting-for-artwork","lineItemNumber":"10006028-1","transitionDate":"2021-10-13T08:58:13.962Z"}``","This type will notify when an orderline's status is changed :ref:`See Orderline status for more information.<_orderline_status>`"
 
 ***************
 Example request
