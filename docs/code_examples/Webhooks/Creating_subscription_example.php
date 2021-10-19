@@ -10,7 +10,7 @@ curl_setopt_array($curl, array(
         'description': 'Subscription for events',
         'url': 'URL',
         'events': [
-            'OrderCreated'
+            'order.created'
         ]
     }",
     CURLOPT_HTTPHEADER => array(
