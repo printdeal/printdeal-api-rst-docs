@@ -1,5 +1,6 @@
 {
   "invoiceAddress":{
+    "company":"Bedrijfsnaam",
     "firstName":"Voornaam",
     "lastName":"Achternaam",
     "email":"Voornaam@gmail.com",
@@ -11,6 +12,7 @@
     "extraAddress":"optional"
   },
   "deliveryAddress":{
+    "company":"Bedrijfsnaam",
     "firstName":"Voornaam",
     "lastName":"Achternaam",
     "street":"Dorpsstraat",

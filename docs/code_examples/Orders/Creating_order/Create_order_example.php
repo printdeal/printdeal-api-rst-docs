@@ -80,6 +80,7 @@ curl_setopt_array($curl, array(
         }
       ],
       "invoiceAddress": {
+        "company":"Bedrijfsnaam",
         "firstName":"Voornaam",
         "lastName":"Achternaam",
         "email":"Voornaam@gmail.com",
@@ -90,6 +91,7 @@ curl_setopt_array($curl, array(
         "country": "nl"
       },
       "deliveryAddress": {
+        "company":"Bedrijfsnaam",
         "firstName":"Voornaam",
         "lastName":"Achternaam",
         "street": "Dorpsstraat",

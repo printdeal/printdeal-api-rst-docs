@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+22-10-2020 ``v2``
+    Added ``company`` as an optional field under ``Address`` while creating order.
+
 18-10-2021 ``v2``
     We released Events and Webhook Subscription as a beta version.
 
