@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+01-11-2021 ``v2``
+    Added a new GET webhooks endpoint to retrieve webhook information :ref:`Retrieving your webhooks<retrieving_your_webhooks>`
+
 22-10-2020 ``v2``
     Added ``company`` as an optional field under ``Address`` while creating order.
 
