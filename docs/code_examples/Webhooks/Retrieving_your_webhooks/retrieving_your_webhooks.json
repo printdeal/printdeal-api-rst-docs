@@ -1,11 +1,11 @@
 [
   {
-      "uuid": "bb9c54d6-f986-4cb5-a8c2-1116fc4dc910",
+      "uuid": "bb9c54d6-f986-4cb5-a8c2-1116fc4dc911",
       "type": "webhook",
       "status": "Active",
       "description": "Subscription for order events",
       "configuration": {
-          "url": "https://ennpjtc2q1cm.x.pipedream.net/events",
+          "url": "https://mywebsite.com/events",
           "events": [
             "order.created",
             "order.failed"
@@ -15,12 +15,12 @@
       "updatedAt": "2021-09-09T05:59:10.000Z"
   },
   {
-      "uuid": "477cca78-7403-4854-b681-d1c064070ac7",
+      "uuid": "477cca78-7403-4854-b681-d1c064070ac8",
       "type": "webhook",
       "status": "Active",
       "description": "Subscription for orderline events",
       "configuration": {
-          "url": "https://enyd3yvu2nan9.x.pipedream.net/events",
+          "url": "https://mywebsite.com/events",
           "events": [
               "orderline.status.updated"
           ]
