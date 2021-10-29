@@ -1,19 +1,31 @@
-{
-  "count": 2,
-  "orders": [
-    {
-      "id": 1234567,
-      "number": "DDB123457",
-      "status": "cancelled",
-      "date": "2017-08-24T11:08:19+02:00",
-      "uuid": "347f6e49-952e-48ec-a49b-8bf528222012"
-    },
-    {
-      "id": 7654321,
-      "number": "PBB7654321",
-      "status": "in-progress",
-      "date": "2017-03-14T16:17:21+01:00",
-      "uuid": "66150572-e513-4284-bec2-9d87060ab894"
-    }
-  ]
-}
+[
+  {
+      "uuid": "bb9c54d6-f986-4cb5-a8c2-1116fc4dc910",
+      "type": "webhook",
+      "status": "Active",
+      "description": "Subscription for order events",
+      "configuration": {
+          "url": "https://ennpjtc2q1cm.x.pipedream.net/events",
+          "events": [
+            "order.created",
+            "order.failed"
+          ]
+      },
+      "createdAt": "2021-09-09T05:59:10.000Z",
+      "updatedAt": "2021-09-09T05:59:10.000Z"
+  },
+  {
+      "uuid": "477cca78-7403-4854-b681-d1c064070ac7",
+      "type": "webhook",
+      "status": "Active",
+      "description": "Subscription for orderline events",
+      "configuration": {
+          "url": "https://enyd3yvu2nan9.x.pipedream.net/events",
+          "events": [
+              "orderline.status.updated"
+          ]
+      },
+      "createdAt": "2021-10-25T08:46:39.000Z",
+      "updatedAt": "2021-10-25T08:46:39.000Z"
+  }
+]
