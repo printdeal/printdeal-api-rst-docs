@@ -3,7 +3,10 @@
 Changelog
 ==========
 
-01-11-2021 ``v2``
+03-11-2021 ``v2``
+    Added a new DELETE webhook endpoint to delete a webhook :ref:`Deleting a webhook<deleting_a_webhook>`
+
+03-11-2021 ``v2``
     Added a new GET webhooks endpoint to retrieve webhook information :ref:`Retrieving your webhooks<retrieving_your_webhooks>`
 
 22-10-2020 ``v2``
