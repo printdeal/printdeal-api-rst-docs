@@ -1,0 +1,31 @@
+[
+  {
+      "uuid": "bb9c54d6-f986-4cb5-a8c2-1116fc4dc911",
+      "type": "webhook",
+      "status": "Active",
+      "description": "Subscription for order events",
+      "configuration": {
+          "url": "https://mywebsite.com/events",
+          "events": [
+            "order.created",
+            "order.failed"
+          ]
+      },
+      "createdAt": "2021-09-09T05:59:10.000Z",
+      "updatedAt": "2021-09-09T05:59:10.000Z"
+  },
+  {
+      "uuid": "477cca78-7403-4854-b681-d1c064070ac8",
+      "type": "webhook",
+      "status": "Active",
+      "description": "Subscription for orderline events",
+      "configuration": {
+          "url": "https://mywebsite.com/events",
+          "events": [
+              "orderline.status.updated"
+          ]
+      },
+      "createdAt": "2021-10-25T08:46:39.000Z",
+      "updatedAt": "2021-10-25T08:46:39.000Z"
+  }
+]

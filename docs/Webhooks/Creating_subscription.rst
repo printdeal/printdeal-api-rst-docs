@@ -3,7 +3,7 @@
 Creating webhook subscription (Beta version)
 ============================================
 
-To create a webhook subscription, send a ``POST`` request to ``/webhooks``.
+To create a webhook subscription, send a ``POST`` request to ``https://webhook.api.printdeal.com/webhooks``.
 The body needs to contain the following JSON data. For example:
 
   .. code-block:: JSON
