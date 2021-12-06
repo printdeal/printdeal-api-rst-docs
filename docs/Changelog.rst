@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+10-12-2021 ``v2``
+    Updated to create a quote order :ref:`Creating quote order<creating_quote_order>`
+
 03-11-2021 ``v2``
     Added a new DELETE webhook endpoint to delete a webhook :ref:`Deleting a webhook<deleting_a_webhook>`
 

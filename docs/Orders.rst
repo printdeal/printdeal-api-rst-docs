@@ -7,6 +7,7 @@ Orders
    :hidden:
 
    Orders/Creating_order
+   Orders/Creating_quote_order
    Orders/Retrieving_your_orders
    Orders/Retrieving_order_information
    Orders/Cancelling_an_order
@@ -21,6 +22,7 @@ You can use regular HTTP methods to communicate with the API about orders:
     
 - A ``POST`` request to ``/api/orders`` will allow you to create a new order.
     See :ref:`creating order<creating_order>` for more information.
+    See :ref:`creating quote order<creating_quote_order>` for more information.
 
 - Sending a ``DELETE`` request to ``/api/orders/{orderId}`` allows you to cancel an existing order.
     See :ref:`cancelling an order<cancelling_an_order>`. for more information.
