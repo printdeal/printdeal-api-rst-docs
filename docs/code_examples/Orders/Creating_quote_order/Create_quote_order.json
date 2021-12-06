@@ -1,0 +1,46 @@
+{
+  "orderLines": [
+    {
+      "quoteLineItemId": "6ca49923-79ba-4513-b0f3-f84517bfa6a4",
+      "files": [
+        {
+          "url": "https://s3-eu-west-1.amazonaws.com/printdealcdn/content_service/informatiesheet_cold-foil.pdf"
+        }
+      ]
+    },
+    {
+      "quoteLineItemId": "4ca49923-79ba-4513-b0f3-f84517bfa6a4",
+      "files": [
+        {
+          "url": "https://s3-eu-west-1.amazonaws.com/printdealcdn/content_service/informatiesheet_cold-foil.pdf"
+        }
+      ]
+    }
+  ],
+  "quoteId": "1ca49923-79ba-4513-b0f3-f84517bfa6a4",
+  "invoiceAddress": {
+    "company":"Bedrijfsnaam",
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
+    "email":"Voornaam@gmail.com",
+    "street": "Dorpsstraat",
+    "housenumber": "123",
+    "zipcode": "1234AB",
+    "city": "Dorp",
+    "country": "nl"
+  },
+  "deliveryAddress": {
+    "company":"Bedrijfsnaam",
+    "firstName":"Voornaam",
+    "lastName":"Achternaam",
+    "street": "Dorpsstraat",
+    "housenumber": "123",
+    "housenumberAddition": "A",
+    "zipcode": "1234AB",
+    "city": "Dorp",
+    "country": "nl"
+  },
+  "deliveryMethod": 1,
+  "reference": "reference-1234",
+  "poNumber": "poNumber"
+}
