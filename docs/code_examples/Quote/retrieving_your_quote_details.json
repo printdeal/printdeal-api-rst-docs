@@ -1,0 +1,21 @@
+{
+  "quoteId": "69ff-001f",
+  "quoteNumber": "Q63",
+  "price": 2001,
+  "quoteExpiryDate": "2022-12-17T23:00:00+00:00",
+  "quoteLineItems": [
+    {
+      "productName": "(CTP) Banners",
+      "quantity": 1,
+      "price": 1654,
+      "arrivalDate": "2021-12-14T00:00:00+00:00",
+      "lineItemId": "b91v-vfds",
+      "productDescription": " Material: Pvc Frontlit,  Banners Finishing: No Finishing,  Printing Process: Digital,  Delivery Type: Normal,  Custom width: 100,  Custom height: 100,  Printing Colors: 4/0 Full Color,",
+      "vatPercentage": 21,
+      "vatAmount": 347,
+      "lineItemNumber": "Q63-1"
+    }
+  ],
+  "quoteReference": null,
+  "isExpired": false
+}
