@@ -3,7 +3,7 @@
 Retrieving your quote details
 ====================
 
-To receive a overview of your orders, you can send a ``GET`` request to ``/api/quote/{quoteIdentifier}``.
+To receive an overview of your quote, you can send a ``GET`` request to ``/api/quote/{quoteIdentifier}``.
 Your response will look something like:
 
 .. literalinclude:: ../code_examples/Quote/Retrieving_your_quote_details/retrieving_your_quote_details.json
