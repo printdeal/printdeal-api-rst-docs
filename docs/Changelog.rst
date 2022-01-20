@@ -12,6 +12,9 @@ Changelog
 03-11-2021 ``v2``
     Added a new GET webhooks endpoint to retrieve webhook information :ref:`Retrieving your webhooks<retrieving_your_webhooks>`
 
+15-04-2021 ``v2``
+    Added the ability to create test orders.
+
 22-10-2020 ``v2``
     Added ``company`` as an optional field under ``Address`` while creating order.
 

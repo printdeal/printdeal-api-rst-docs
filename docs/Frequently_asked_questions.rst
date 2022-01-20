@@ -85,3 +85,11 @@ For examples see:
 
 * https://github.com/skolodyazhnyy/json-stream
 * https://github.com/halaxa/json-machine
+
+*************************
+How can I test my integration?
+*************************
+
+We don't have a separate test environment. Since the most important use case for testing is that orders are not produced and billed, but that you are confident that your integration is working. Therefore in the create order endpoint we introduced an optional field testOrder. When you place an order and set the field testOrder is true, your order will not be produced and billed.
+
+You can view the status of your testorder in the order information endpoint.
