@@ -9,7 +9,8 @@
     "zipcode":"1234AB",
     "city":"Dorp",
     "country":"nl",
-    "extraAddress":"optional"
+    "extraAddress":"optional",
+    "vatId": "NL819555514B01"
   },
   "deliveryAddress":{
     "company":"Bedrijfsnaam",
