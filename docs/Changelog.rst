@@ -3,6 +3,9 @@
 Changelog
 ==========
 
+29-07-2022 ``v2``
+    Added ``vatId`` as an optional field under ``Address`` while creating order.
+
 10-12-2021 ``v2``
     Updated to create a quote order :ref:`Creating quote order<creating_quote_order>`
 
