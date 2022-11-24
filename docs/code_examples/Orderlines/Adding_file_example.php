@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://api.printdeal.com/api/ORDERLINEID/files",
+    CURLOPT_URL => "https://api.printdeal.com/api/orderlines/ORDERLINEID/files",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_CUSTOMREQUEST => "POST",
     CURLOPT_POSTFIELDS => "{ 'files': [ { 'url': 'URL' } ] }",

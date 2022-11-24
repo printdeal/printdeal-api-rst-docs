@@ -34,7 +34,7 @@ Changelog
 
 
 09-10-2020 ``v2``
-    Added a new endpoint to add a file to an orderline :ref:`Adding file<adding_file>` call. ``/api/{orderlineId}/files``
+    Added a new endpoint to add a file to an orderline :ref:`Adding file<adding_file>` call. ``/api/orderlines/{orderlineId}/files``
 
 
 15-09-2020 ``V2``
