@@ -3,7 +3,7 @@
 Adding file to an orderline
 ===========================
 
-To add a file to an orderline, send a ``POST`` request to ``/api/{orderlineId}/files``.
+To add a file to an orderline, send a ``POST`` request to ``/api/orderlines/{orderlineId}/files``.
 The body needs to contain JSON data with file url. For example:
 
   .. code-block:: JSON
