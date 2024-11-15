@@ -19,7 +19,7 @@ The body needs to contain the following JSON data. For example:
 
 The response HTTP status code will be 201 if the webhook subscription was successfully created.
 
-If you can no longer create a webhook subscription and receive ``500 Internal Server Error``, please contact us using email api.support@printdeal.com.
+If you can no longer create a webhook subscription and receive ``500 Internal Server Error``, please contact us using email api@drukwerkdeal.nl.
 
 ***********
 Event Types
