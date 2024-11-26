@@ -17,51 +17,6 @@ If your order has not been processed, or failed, you will receive a 404 error on
 
 We are currently working on an event based system to give you exact details on where and why the order creation has failed.
 
-
-Update on 21 December 2018:
----------------------------
-
-The Printdeal API was updated at 21 December 2018 around 13:00, after this time, when an order creation failed, you now receive an 404 result, with an error message that the order creation has failed. Orders that failed before this date and time will have a 404 not found response.
-
-******************
-Dynamic attributes
-******************
-For us it is currently not possible to provide the attributes that have dynamic input.
-
-If you have an category which contains the attribute: Format, with a value containing Custom Sizes, you need to also provide 2 new attributes yourself:
-* Width & Height.
-
-The same goes for quantity.
-
-An example:
-
-.. literalinclude:: ../docs/code_examples/Faq/dynamic.json
-   :language: JSON
-   :linenos:
-
-Due too technical limitations, we are currently unable to provide these in the attribute & combinations endpoint.
-
-We are currently working on a solution to provide ranges for the width & height attributes.
-
-****************
-Textile products
-****************
-
-Our Textile products work a bit differently then our other products. They also use dynamic attributes. With textile products you need to provide the following attributes, for creating an order or validating a product:
-
-* Quantity
-* Sizes
-* Gender
-
-An example:
-
-.. literalinclude:: ../docs/code_examples/Faq/textiles.json
-   :language: JSON
-   :linenos:
-
-
-In this case UM stands for unisex M size, and UL for unisex large. As you can see they are also provided in textile sizes.
-
 ****************
 Category updates
 ****************
@@ -72,7 +27,7 @@ Our product managers regularly update categories. To ensure that your product st
 * Retrieve the new SKU for the category
 * Verify that all attributes & values are still names the same, if thats not the case adjust accordingly.
 
-Since our categories are bound to change sometimes, we would reccomend to store them dynamically to make sure it is possible to change them
+Since our categories are bound to change sometimes, we would recommend to store them dynamically to make sure it is possible to change them
 
 *************************
 Combinations file too big
@@ -85,6 +40,7 @@ For examples see:
 
 * https://github.com/skolodyazhnyy/json-stream
 * https://github.com/halaxa/json-machine
+
 
 *************************
 How can I test my integration?
