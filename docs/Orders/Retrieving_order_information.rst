@@ -20,9 +20,9 @@ Each orderline contains a vatAmount field with the VAT for that product. There i
 
 The total field contains the total amount for the order, including VAT, payment costs, shipping costs, customer discounts and coupons if used.
 
-*********************
+*****************
 Customer Discount
-*********************
+*****************
 
 Each orderline contains a customer discount field which will show how much discount is applied on order line. In case of customer discount is not present then it will be null.
 
@@ -44,9 +44,9 @@ The Printdeal API was updated at 21 December 2018 around 13:00, after this time,
 when an order creation failed, you now receive an 404 result, with an error message that the order creation has failed.
 Orders that failed before this date and time will have a 404 not found response.
 
-*********************
+*************************
 Delivery date get revised
-*********************
+*************************
 
 In some cases delivery date may get revised. So in such case for each orderline have ``revisedDeliveryDate`` which
 shows revised delivery date for orderline. If no change in delivery date then it will be ``null``.
