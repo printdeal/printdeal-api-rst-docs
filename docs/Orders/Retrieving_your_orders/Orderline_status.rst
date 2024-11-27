@@ -1,7 +1,7 @@
 .. _orderline_status:
 
 Orderline status
-============
+================
 
 The following orderline statuses are available:
 

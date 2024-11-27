@@ -8,6 +8,7 @@
    Orders <./docs/Orders>
    Orderlines <./docs/Orderlines>
    Products <./docs/Products>
+   Quotes <./docs/Quotes>
    Webhooks <./docs/Webhooks>
    Changelog <./docs/Changelog>
    Frequently Asked Questions <./docs/Frequently_asked_questions>
