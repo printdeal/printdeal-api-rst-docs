@@ -4,7 +4,6 @@
 
    Getting Started <./docs/Getting_started>
    Authentication <./docs/Authentication>
-   Versioning <./docs/Versioning>
    Orders <./docs/Orders>
    Orderlines <./docs/Orderlines>
    Products <./docs/Products>
