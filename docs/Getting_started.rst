@@ -20,7 +20,7 @@ You are now ready to start coding! For example, you might begin by creating orde
 
 **Link Your Account (After Completing Integration)**
 
-Once you have completed your integration and are ready to work with live data, you can link your API credentials to a Drukwerkdeal (NL) or Printdeal (BE) account. If you do not yet have an account, you can register at:
+Once you have completed your integration and are ready to work with live data, you can link your API credentials to a Drukwerkdeal or Printdeal account. If you do not yet have an account, you can register at:
 
 * Drukwerkdeal
 * Printdeal
