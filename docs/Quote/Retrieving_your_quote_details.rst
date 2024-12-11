@@ -8,7 +8,7 @@ Your response will look something like:
 
 .. literalinclude:: ../code_examples/Quote/retrieving_your_quote_details.json
    :language: JSON
-   :linenos:
+   
 
 ***************
 Required fields
@@ -28,4 +28,4 @@ The following PHP code can be used to retrieve quote details. Make sure you repl
 
 .. literalinclude:: ../code_examples/Quote/Retrieving_your_quote_details.php
    :language: PHP
-   :linenos:
+   

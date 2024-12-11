@@ -17,12 +17,12 @@ The following can be used as an example to create an order:
 
 .. literalinclude:: ../code_examples/Orders/Creating_order/Create_order.json
    :language: JSON
-   :linenos:
+   
 
 The response will be a JSON object with the order UUID that can be used to retrieve information from the order:
 
 .. code-block:: JSON
-   :linenos:
+   
 
     {
         "uuid": "fea079fc-2f77-4223-9d5f-10254bb48717"
@@ -71,7 +71,7 @@ The Printdeal API was updated at 21 December 2018 around 13:00, after this time,
 
 .. literalinclude:: ../code_examples/Orders/Creating_order/Create_order_example.php
    :language: PHP
-   :linenos:
+   
 
 ****************************
 Example request create order
@@ -80,4 +80,4 @@ The following PHP code can be used to create an order. Make sure you replace the
 
 .. literalinclude:: ../code_examples/Orders/Creating_order/Create_order_example.php
    :language: PHP
-   :linenos:
+   

@@ -8,7 +8,7 @@ Your response will look something like:
 
 .. literalinclude:: ../code_examples/Webhooks/Retrieving_your_webhooks/retrieving_your_webhooks.json
    :language: JSON
-   :linenos:
+   
 
 The uuid field can be used to retrieve more information about a webhook.
 You can do this by sending a ``GET`` request to ``https://webhook.api.printdeal.com/webhooks/{uuid}``.
@@ -22,4 +22,4 @@ The following PHP code can be used for retrieve webhook information. Make sure y
 
 .. literalinclude:: ../code_examples/Webhooks/Retrieving_your_webhooks/retrieving_your_webhooks_example.php
    :language: PHP
-   :linenos:
+   

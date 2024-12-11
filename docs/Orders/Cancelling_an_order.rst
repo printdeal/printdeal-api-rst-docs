@@ -7,7 +7,7 @@ To cancel an order, send a ``DELETE`` request to ``/api/orders/{orderid}``.
 The body needs to contain JSON data with the corresponding reason. For example:
 
   .. code-block:: JSON
-   :linenos:
+   
 
     {
       "reason" : "Insert reason here"
@@ -16,7 +16,7 @@ The body needs to contain JSON data with the corresponding reason. For example:
 The response, if successfully will be a JSON object with the following data:
 
   .. code-block:: JSON
-   :linenos:
+   
 
     {
       "success": true
@@ -39,4 +39,4 @@ and ``REASON`` with the reason of the cancellation.
 
 .. literalinclude:: ../code_examples/Orders/Cancelling_an_order_example.php
    :language: PHP
-   :linenos:
+   

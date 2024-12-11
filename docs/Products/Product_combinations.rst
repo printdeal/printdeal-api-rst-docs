@@ -11,13 +11,13 @@ This will give you a response like:
 
 .. literalinclude:: ../code_examples/Products/combination-list/v2/response.json
    :language: JSON
-   :linenos:
+   
 
 ``v1``:
 
 .. literalinclude:: ../code_examples/Products/combination-list.json
    :language: JSON
-   :linenos:
+   
 
 The attribute and values in ``product`` can be used to create your order. The pricing is our default price, excluding any discounts.
 
@@ -33,4 +33,4 @@ The following PHP code can be used to retrieve the possible combinations of a ca
 
 .. literalinclude:: ../code_examples/Products/combinations.php
    :language: PHP
-   :linenos:
+   

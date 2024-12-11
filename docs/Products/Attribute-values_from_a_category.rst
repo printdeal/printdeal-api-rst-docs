@@ -9,7 +9,7 @@ This will return a response similar to:
 
 .. literalinclude:: ../code_examples/Products/attribute-list.json
    :language: JSON
-   :linenos:
+   
 
 To order a specific product you can retrieve the possible combinations, and create an order.
 
@@ -22,7 +22,7 @@ The following PHP code can be used to retrieve the available attributes and valu
 
 .. literalinclude:: ../code_examples/Products/attributes.php
    :language: PHP
-   :linenos:
+   
 
 ******************
 Dynamic Attributes
@@ -38,10 +38,10 @@ Criteria can also be present on external rules. These are values that must be pr
 
 .. literalinclude:: ../code_examples/Products/dynamic-attributes/v2/response.json
    :language: JSON
-   :linenos:
+   
 
 ``v1``:
 
 .. literalinclude:: ../code_examples/Products/dynamic-attributes.json
    :language: JSON
-   :linenos:
+   

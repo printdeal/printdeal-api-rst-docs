@@ -14,7 +14,7 @@ Your response will look something like:
 
 .. literalinclude:: ../code_examples/Orders/Retrieving_your_orders/retrieving_your_orders.json
    :language: JSON
-   :linenos:
+   
 
 The id field can be used to retrieve more information about an order.
 You can do this by sending a ``GET`` request to ``/api/orders/{id}``.
@@ -40,4 +40,4 @@ The following PHP code can be used for retrieve order information. Make sure you
 
 .. literalinclude:: ../code_examples/Orders/Retrieving_your_orders/retrieving_your_orders_example.php
    :language: PHP
-   :linenos:
+   

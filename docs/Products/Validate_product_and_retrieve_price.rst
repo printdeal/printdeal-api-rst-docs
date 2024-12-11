@@ -17,7 +17,7 @@ Request example
 
 .. literalinclude:: ../code_examples/Products/validation.json
    :language: JSON
-   :linenos:
+   
 
 ****************
 Response example
@@ -25,7 +25,7 @@ Response example
 
 .. literalinclude:: ../code_examples/Products/validation_response.json
    :language: JSON
-   :linenos:
+   
 
 .. csv-table::
    :header: "Field", "Type", "Description"
@@ -45,4 +45,4 @@ The following PHP code can be used to validate a product and receive the price. 
 
 .. literalinclude:: ../code_examples/Products/validation.php
    :language: PHP
-   :linenos:
+   
