@@ -30,9 +30,9 @@ Response example
    :widths: 30,10,60
 
    "``price``","``float``","Price of the product"
-   "``deliveryDays``","``Int``","Deprecated, returns `0` for backwards compatibility."
-   "``planoWidth``","``Int``","Deprecated, returns `0`for backwards compatibility."
-   "``planoHeight``","``Int``","Deprecated, returns `0` for backwards compatibility."
+   "``deliveryDays``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
+   "``planoWidth``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
+   "``planoHeight``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
    "``promisedArrivalDate``","``String|Null``","Date in the format yyyy-mm-dd. **If value returns** ``NULL`` **there went something wrong with calculating the date.**"
 
 ***************

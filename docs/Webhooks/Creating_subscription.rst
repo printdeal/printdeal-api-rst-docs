@@ -32,7 +32,7 @@ The list of event types that you can subscribe to receive real-time updates.
    :widths: 30,70
 
     "``order.created``","This type will notify for order created event"
-    "``orderline.status.updated``","This type will notify when an orderline's status is updated :ref:`See Orderline status for more information.<_orderline_status>`"
+    "``orderline.status.updated``","This type will notify when an orderline's status is updated :ref:`See Orderline status for more information.<orderline_status>`"
 
 ***************
 Example request
