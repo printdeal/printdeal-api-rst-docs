@@ -7,18 +7,9 @@ To know which combinations are available for each category, you can send a ``GET
 
 This will give you a response like:
 
-``v2``:
-
 .. literalinclude:: ../code_examples/Products/combination-list/v2/response.json
    :language: JSON
    
-
-``v1``:
-
-.. literalinclude:: ../code_examples/Products/combination-list.json
-   :language: JSON
-   
-
 The attribute and values in ``product`` can be used to create your order. The pricing is our default price, excluding any discounts.
 
 If you receive an empty response, the category contains free input. You need to provide values for e.g. width and height yourself. The :ref:`available attributes and values endpoint<attribute/values_from_a_category>` can provide you more information.

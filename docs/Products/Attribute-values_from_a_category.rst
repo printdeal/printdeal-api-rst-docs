@@ -5,6 +5,21 @@ Attribute/values from a category
 
 To know which attributes and values are available from a category, you can send a ``GET`` request to ``/api/products/{sku}/attributes``.
 
+The response contains attributes where the values can be either:
+
+#. **A List of Options:** The attribute value is a list of strings that enumerate predefined options. These options represent fixed choices that can be selected.
+
+#. **A Range Object:** The attribute value is an object defining a range with properties:
+
+   * **minimum:** The smallest allowable value in the range.
+
+   * **maximum:** The largest allowable value in the range.
+
+   * **increment:** The step value that defines the allowed increments between the minimum and maximum.
+
+   * **unitOfMeasure:** A string specifying the unit associated with the range values (e.g., "mm").
+
+
 This will return a response similar to:
 
 .. literalinclude:: ../code_examples/Products/attribute-list.json
@@ -34,14 +49,6 @@ We also added validation rules for some of the externals. Not all rules are expo
 
 Criteria can also be present on external rules. These are values that must be present in the selection for this rule to be active. Take the following example below. The rule “width_max” (maximum width) with value “310” is active when “Budget PVC” is selected. But when “Flag fabric” is selected, the value for “width_max” is 5000.
 
-``v2``:
-
 .. literalinclude:: ../code_examples/Products/dynamic-attributes/v2/response.json
-   :language: JSON
-   
-
-``v1``:
-
-.. literalinclude:: ../code_examples/Products/dynamic-attributes.json
    :language: JSON
    
