@@ -6,7 +6,7 @@ Your response will look like:
 
 .. literalinclude:: ../code_examples/Products/category-list.json
    :language: JSON
-   :linenos:
+   
 
 The SKU is used for communicating the type of product you want to order, or need more information about.
 You can retrieve the available attributes and values or retrieve all possible combinations of a certain category.
@@ -25,4 +25,4 @@ with the User-ID and secret you received on the API-credentials page.
 
 .. literalinclude:: ../code_examples/Products/categories.php
    :language: PHP
-   :linenos:
+   

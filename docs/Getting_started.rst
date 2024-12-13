@@ -1,51 +1,57 @@
-###############
-Getting started
-###############
+############################
+Getting Started with the API
+############################
 
 .. toctree::
    :titlesonly:
    :hidden:
 
+**Register an Account on the API Documentation Website**
 
-**1. Register on the API documentation website**
+To access the API, you must obtain API credentials linked to an account on the API documentation website. You can create an account here. The registration process is simple and requires only an email address and a password.
 
-To use the API, you need to have API-credentials that are linked to an account on this website. You can register this account here. All you need is an email address and password.
+**Generate API Credentials**
 
-**2. Create API credentials**
+Once your account is registered, navigate to the My API Credentials page. Here, you can create a new set of API credentials. Each set consists of a User ID and a Secret, which must be included in every API request.
 
-After you registered your account, navigate to the My API-credentials page. From here you can create a new set of credentials. The credentials consist of a User-ID and a secret. These need to be provided with every request that you make to the API. You don’t need to link the account to an existing account yet, all requests that you make with credentials that aren’t linked will give you sample data in response.
+At this stage, you do not need to link your account to an existing Drukwerkdeal or Printdeal account. Any requests made using unlinked credentials will return sample data, allowing you to test and develop with the API.
 
-After this step, you can start coding! A next step could be creating orders.
+You are now ready to start coding! For example, you might begin by creating orders.
 
-**3. Link your account (when you are finished integrating)**
+**Link Your Account (After Completing Integration)**
 
-When you finished coding and integrating the API, you can use the same credentials to use live data. This is done by linking the credentials to a Drukwerkdeal (NL) or Printdeal (BE) account. If you don’t have an account on Drukwerkdeal or Printdeal, visit https://www.drukwerkdeal.nl or https://www.printdeal.be and register an account there.
+Once you have completed your integration and are ready to work with live data, you can link your API credentials to a Drukwerkdeal or Printdeal account. If you do not yet have an account, you can register at:
 
-To link your account, navigate to My API-credentials. and select either Drukwerkdeal or Printdeal in the dropdown. You will be forwarded to the corresponding website and presented with an approval screen. To link the account, click Approve and you will be redirected back to the My API-Credentials page. You will see that your account is linked. All subsequent API requests that you make will respond with live data.
+* Drukwerkdeal
+* Printdeal
 
+To link your account:
 
-API Requests
-============
+#. Go to the My API Credentials page.
+#. Select either Drukwerkdeal or Printdeal from the dropdown menu.
+#. You will be redirected to the respective website to approve the connection.
+#. After approval, you will return to the My API Credentials page, where the linked account status will be displayed.
 
-All requests start with the following URL:
+Once your account is linked, all API requests will provide live data.
+
+*******************
+Making API Requests
+*******************
+
+All API requests should use the following base URL:
 ``https://api.printdeal.com/api``
 
-For example, to retrieve your orders, the following URL must be used:
-``https://api.printdeal.com/api/orders``
+**Example Endpoints:**
 
-The API is a RESTful API, that uses the HTTP protocol for communication. HTTP ``GET``, ``POST``, ``PUT`` and ``DELETE`` methods are used to access the API.
+* ``GET`` ``/api/orders``: Retrieve a list of your orders.
+* ``GET`` ``/api/orders/{id}``: Retrieve details for a specific order.
+* ``POST`` ``/api/orders``: Create a new order.
+* ``PUT`` ``/api/orders/{id}`` or ``POST`` ``/api/orders/{id}``: Update an existing order.
+* ``DELETE`` ``/api/orders/{id}``: Cancel an order.
 
-Some examples:
+The API follows RESTful principles and communicates over HTTPS using the HTTP protocol. Supported HTTP methods include **GET**, **POST**, **PUT**, and **DELETE**.
 
-* ``GET`` ``/api/orders will`` return your orders
-* ``GET`` ``/api/orders/{id}`` will return a specific order
-* ``POST`` ``/api/orders`` allows you to create an order
-* ``PUT`` (or ``POST``) ``/api/orders/{id}`` enables you to update the order
-* ``DELETE`` ``/api/orders/{id}`` cancels the order
-
-
-
+***********************
 Technical Documentation
-=======================
-To view the technical documentation, go to https://api.printdeal.com/doc.
-This website contains all available endpoints and necessary information required to use the endpoint.
+***********************
+For detailed information on available endpoints and their usage, refer to the `API Technical Documentation <https://api.printdeal.com/doc>`_. This resource includes all the necessary details for implementing the API endpoints.

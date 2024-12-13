@@ -9,12 +9,12 @@ The following can be used as an example to create a quote order:
 
 .. literalinclude:: ../code_examples/Orders/Creating_quote_order/Create_quote_order.json
    :language: JSON
-   :linenos:
+   
 
 The response will be a JSON object with the order UUID that can be used to retrieve information from the order:
 
 .. code-block:: JSON
-   :linenos:
+   
 
     {
         "uuid": "fea079fc-2f77-4223-9d5f-10254bb48717"
@@ -63,4 +63,4 @@ The following PHP code can be used to create a quote order. Make sure you replac
 
 .. literalinclude:: ../code_examples/Orders/Creating_quote_order/Create_quote_order_example.php
    :language: PHP
-   :linenos:
+   

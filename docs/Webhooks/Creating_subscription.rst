@@ -7,7 +7,7 @@ To create a webhook subscription, send a ``POST`` request to ``https://webhook.a
 The body needs to contain the following JSON data. For example:
 
   .. code-block:: JSON
-   :linenos:
+   
    
     {
         "description": "New Subscription for events",
@@ -32,7 +32,7 @@ The list of event types that you can subscribe to receive real-time updates.
    :widths: 30,70
 
     "``order.created``","This type will notify for order created event"
-    "``orderline.status.updated``","This type will notify when an orderline's status is updated :ref:`See Orderline status for more information.<_orderline_status>`"
+    "``orderline.status.updated``","This type will notify when an orderline's status is updated :ref:`See Orderline status for more information.<orderline_status>`"
 
 ***************
 Example request
@@ -46,4 +46,4 @@ Make sure to replace ``URL`` with the url you would like to recieve the events d
 
 .. literalinclude:: ../code_examples/Webhooks/Creating_subscription_example.php
    :language: PHP
-   :linenos:
+   

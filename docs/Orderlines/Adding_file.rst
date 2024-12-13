@@ -7,7 +7,7 @@ To add a file to an orderline, send a ``POST`` request to ``/api/orderlines/{ord
 The body needs to contain JSON data with file url. For example:
 
   .. code-block:: JSON
-   :linenos:
+   
 
     {
         "files": [
@@ -20,7 +20,7 @@ The body needs to contain JSON data with file url. For example:
 The response, if successfully will be a JSON object with the following data:
 
   .. code-block:: JSON
-   :linenos:
+   
 
     "File upload is scheduled"
 
@@ -40,4 +40,4 @@ and ``URL`` with the file url.
 
 .. literalinclude:: ../code_examples/Orderlines/Adding_file_example.php
    :language: PHP
-   :linenos:
+   

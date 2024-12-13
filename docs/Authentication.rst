@@ -37,4 +37,4 @@ The following PHP code can be used to create an authenticated request. Make sure
 
 .. literalinclude:: ../docs/code_examples/Authentication_example.php
    :language: PHP
-   :linenos:
+   

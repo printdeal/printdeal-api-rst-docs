@@ -10,7 +10,7 @@ The response will be a JSON object with order information.
 
 .. literalinclude:: ../code_examples/Orders/retrieving_order_information_data_format.json
    :language: JSON
-   :linenos:
+   
 
 *********************
 VAT amounts and total
@@ -62,4 +62,4 @@ received on the API-credentials page, and{orderId} with the corresponding ``orde
 
 .. literalinclude:: ../code_examples/Orders/retrieving_order_information_example.php
    :language: PHP
-   :linenos:
+   

@@ -5,6 +5,7 @@ Quotes
 
 .. toctree::
    :hidden:
+   
    Quote/Retrieving_your_quote_details
 
 Request quotes for (custom) print products that are not standard offerings on our website. 

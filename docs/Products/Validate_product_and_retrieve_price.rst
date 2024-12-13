@@ -17,24 +17,22 @@ Request example
 
 .. literalinclude:: ../code_examples/Products/validation.json
    :language: JSON
-   :linenos:
-
+   
 ****************
 Response example
 ****************
 
 .. literalinclude:: ../code_examples/Products/validation_response.json
    :language: JSON
-   :linenos:
 
 .. csv-table::
    :header: "Field", "Type", "Description"
    :widths: 30,10,60
 
    "``price``","``float``","Price of the product"
-   "``deliveryDays``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
-   "``planoWidth``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
-   "``planoHeight``","``Int``","Deprecated, returns `0` in ``v2`` for backwards compatibility."
+   "``deliveryDays``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
+   "``planoWidth``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
+   "``planoHeight``","``Int``","**Deprecated**, returns `0` for backwards compatibility."
    "``promisedArrivalDate``","``String|Null``","Date in the format yyyy-mm-dd. **If value returns** ``NULL`` **there went something wrong with calculating the date.**"
 
 ***************
@@ -45,4 +43,4 @@ The following PHP code can be used to validate a product and receive the price. 
 
 .. literalinclude:: ../code_examples/Products/validation.php
    :language: PHP
-   :linenos:
+   

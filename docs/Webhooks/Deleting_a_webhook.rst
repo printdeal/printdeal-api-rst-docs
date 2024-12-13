@@ -8,7 +8,7 @@ To delete a webhook, send a ``DELETE`` request to ``https://webhook.api.printdea
 The response, if successfully deleted, will be a JSON object with the status as Inactive:
 
   .. code-block:: JSON
-   :linenos:
+   
 
     {
       "uuid": "bb9c54d6-f986-4cb5-a8c2-1116fc4dc911",
@@ -39,4 +39,4 @@ Make sure to replace ``UUID`` with the uuid of the webhook you would like to del
 
 .. literalinclude:: ../code_examples/Webhooks/Deleting_a_webhook_example.php
    :language: PHP
-   :linenos:
+   
